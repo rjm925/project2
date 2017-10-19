@@ -1,3 +1,149 @@
 .inputLine {
 	padding-bottom: 5px;
 }
+
+.sidebar{
+  float: left;
+  width: 25%;
+  /*height: 100vh;*/
+  background-color: #264653;
+}
+
+.sidebar-inner{
+  background-color: #2A9D8F;
+  position: relative;
+  height: 100vh;
+}
+
+.bracketContainer{
+  width: 75%;
+  float: left;
+  -webkit-backface-visibility: hidden;
+  overflow-x: hidden;
+  /*height: 100vh;*/
+}
+
+.holder{
+  /*height: 100vh;*/
+}
+
+.container{
+  background-color: #264653;
+}
+
+.row{
+  padding: 10px;
+}
+
+.col-sm-6{
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  box-shadow: 2px 2px 10px #111;
+  background-color: #2A9D8F;
+  color: #FFFBFA;
+  margin-bottom: 15px;
+}
+
+.jumbotron{
+  text-align: center;
+  box-shadow: 2px 2px 10px #111;
+  margin: 20px 0;
+  background-color: #2A9D8F;
+  color: #FFFBFA;
+}
+
+.jumbotron .display-3{
+  font-family: 'Pacifico', sans-serif;
+}
+
+.jumbotron .lead{
+  margin-top: 20px;
+
+}
+
+.createCredentials{
+  text-align: center;
+}
+
+.form-group{
+  padding: 10px;
+  background-color: #62BBC1;
+  border-radius: 3px;
+  color: #FFFBFA;
+  margin: 0 15px;
+  margin-bottom: 15px;
+  box-shadow: 2px 2px 10px #111;
+  -webkit-backface-visibility: hidden;
+}
+
+.header{
+  width: 100%;
+  height: 8%;
+  background-color: #62BBC1;
+  text-align: center;
+  color: #FFFBFA;
+  font-family: 'Pacifico', sans-serif;
+  margin-bottom: 30px;
+}
+
+.footer{
+  width: 100%;
+  height: 8%;
+  background-color: #62BBC1;
+  text-align: center;
+  color: #FFFBFA;
+  font-family: 'Pacifico', sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
+}
+
+.reset{
+  width: 100%;
+  height: 8%;
+  background-color: #62BBC1;
+  text-align: center;
+  color: #FFFBFA;
+  font-family: 'Pacifico', sans-serif;
+  margin-top: 30px;
+  position: absolute;
+  bottom: 8%;
+  border-bottom: 2px solid #2A9D8F;
+}
+
+.header p, .footer p, .reset p{
+  position: relative;
+  top: 25%;
+  left: 0;
+  font-size: 20px;
+}
+
+.first{
+  -webkit-animation-delay: .333s; /* Safari 4.0 - 8.0 */
+    animation-delay: .333s;
+}
+
+.second{
+  -webkit-animation-delay: .666s; /* Safari 4.0 - 8.0 */
+    animation-delay: .666s;
+}
+
+.third{
+  -webkit-animation-delay: .999s; /* Safari 4.0 - 8.0 */
+    animation-delay: .999s;
+}
+
+html{
+  background-color: #264653;
+}
+
+body{
+  background-color: #264653;
+}
+
+div{
+  -webkit-backface-visibility: hidden;
+}
